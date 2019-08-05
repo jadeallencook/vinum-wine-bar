@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { WineComponent } from './pages/wine/wine.component';
 import { FoodComponent } from './pages/food/food.component';
 import { CocktailsComponent } from './pages/cocktails/cocktails.component';
-import { MenuComponent } from './components/common/menu/menu.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
@@ -15,7 +14,6 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     WineComponent,
     FoodComponent,
     CocktailsComponent,
-    MenuComponent,
     PageNotFoundComponent
   ],
   imports: [
