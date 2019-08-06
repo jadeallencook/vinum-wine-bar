@@ -5,16 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WineComponent } from './pages/wine/wine.component';
 import { FoodComponent } from './pages/food/food.component';
-import { CocktailsComponent } from './pages/cocktails/cocktails.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { DrinksComponent } from './pages/drinks/drinks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WineComponent,
     FoodComponent,
-    CocktailsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DrinksComponent
   ],
   imports: [
     BrowserModule,
