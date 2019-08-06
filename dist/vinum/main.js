@@ -37,7 +37,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/page-not-found/page-not-found.component */ "./src/app/pages/page-not-found/page-not-found.component.ts");
-/* harmony import */ var _pages_cocktails_cocktails_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/cocktails/cocktails.component */ "./src/app/pages/cocktails/cocktails.component.ts");
+/* harmony import */ var _pages_drinks_drinks_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/drinks/drinks.component */ "./src/app/pages/drinks/drinks.component.ts");
 /* harmony import */ var _pages_food_food_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/food/food.component */ "./src/app/pages/food/food.component.ts");
 /* harmony import */ var _pages_wine_wine_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/wine/wine.component */ "./src/app/pages/wine/wine.component.ts");
 
@@ -49,7 +49,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var routes = [
     { path: 'wine', component: _pages_wine_wine_component__WEBPACK_IMPORTED_MODULE_6__["WineComponent"] },
-    { path: 'cocktails', component: _pages_cocktails_cocktails_component__WEBPACK_IMPORTED_MODULE_4__["CocktailsComponent"] },
+    { path: 'drinks', component: _pages_drinks_drinks_component__WEBPACK_IMPORTED_MODULE_4__["DrinksComponent"] },
     { path: 'food', component: _pages_food_food_component__WEBPACK_IMPORTED_MODULE_5__["FoodComponent"] },
     { path: '**', component: _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_3__["PageNotFoundComponent"] }
 ];
@@ -140,8 +140,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _pages_wine_wine_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/wine/wine.component */ "./src/app/pages/wine/wine.component.ts");
 /* harmony import */ var _pages_food_food_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/food/food.component */ "./src/app/pages/food/food.component.ts");
-/* harmony import */ var _pages_cocktails_cocktails_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/cocktails/cocktails.component */ "./src/app/pages/cocktails/cocktails.component.ts");
-/* harmony import */ var _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/page-not-found/page-not-found.component */ "./src/app/pages/page-not-found/page-not-found.component.ts");
+/* harmony import */ var _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/page-not-found/page-not-found.component */ "./src/app/pages/page-not-found/page-not-found.component.ts");
+/* harmony import */ var _pages_drinks_drinks_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/drinks/drinks.component */ "./src/app/pages/drinks/drinks.component.ts");
 
 
 
@@ -160,8 +160,8 @@ var AppModule = /** @class */ (function () {
                 _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
                 _pages_wine_wine_component__WEBPACK_IMPORTED_MODULE_5__["WineComponent"],
                 _pages_food_food_component__WEBPACK_IMPORTED_MODULE_6__["FoodComponent"],
-                _pages_cocktails_cocktails_component__WEBPACK_IMPORTED_MODULE_7__["CocktailsComponent"],
-                _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__["PageNotFoundComponent"]
+                _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_7__["PageNotFoundComponent"],
+                _pages_drinks_drinks_component__WEBPACK_IMPORTED_MODULE_8__["DrinksComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -178,56 +178,56 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/pages/cocktails/cocktails.component.html":
-/*!**********************************************************!*\
-  !*** ./src/app/pages/cocktails/cocktails.component.html ***!
-  \**********************************************************/
+/***/ "./src/app/pages/drinks/drinks.component.html":
+/*!****************************************************!*\
+  !*** ./src/app/pages/drinks/drinks.component.html ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  Cocktail menu coming soon...\n</p>\n"
+module.exports = "<p>\n  drinks works!\n</p>\n"
 
 /***/ }),
 
-/***/ "./src/app/pages/cocktails/cocktails.component.scss":
-/*!**********************************************************!*\
-  !*** ./src/app/pages/cocktails/cocktails.component.scss ***!
-  \**********************************************************/
+/***/ "./src/app/pages/drinks/drinks.component.scss":
+/*!****************************************************!*\
+  !*** ./src/app/pages/drinks/drinks.component.scss ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2NvY2t0YWlscy9jb2NrdGFpbHMuY29tcG9uZW50LnNjc3MifQ== */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2RyaW5rcy9kcmlua3MuY29tcG9uZW50LnNjc3MifQ== */"
 
 /***/ }),
 
-/***/ "./src/app/pages/cocktails/cocktails.component.ts":
-/*!********************************************************!*\
-  !*** ./src/app/pages/cocktails/cocktails.component.ts ***!
-  \********************************************************/
-/*! exports provided: CocktailsComponent */
+/***/ "./src/app/pages/drinks/drinks.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/pages/drinks/drinks.component.ts ***!
+  \**************************************************/
+/*! exports provided: DrinksComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CocktailsComponent", function() { return CocktailsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DrinksComponent", function() { return DrinksComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 
 
-var CocktailsComponent = /** @class */ (function () {
-    function CocktailsComponent() {
+var DrinksComponent = /** @class */ (function () {
+    function DrinksComponent() {
     }
-    CocktailsComponent.prototype.ngOnInit = function () {
+    DrinksComponent.prototype.ngOnInit = function () {
     };
-    CocktailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    DrinksComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-cocktails',
-            template: __webpack_require__(/*! ./cocktails.component.html */ "./src/app/pages/cocktails/cocktails.component.html"),
-            styles: [__webpack_require__(/*! ./cocktails.component.scss */ "./src/app/pages/cocktails/cocktails.component.scss")]
+            selector: 'app-drinks',
+            template: __webpack_require__(/*! ./drinks.component.html */ "./src/app/pages/drinks/drinks.component.html"),
+            styles: [__webpack_require__(/*! ./drinks.component.scss */ "./src/app/pages/drinks/drinks.component.scss")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], CocktailsComponent);
-    return CocktailsComponent;
+    ], DrinksComponent);
+    return DrinksComponent;
 }());
 
 
@@ -241,7 +241,7 @@ var CocktailsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  Food menu coming soon...\n</p>\n"
+module.exports = "<div>\n  <div *ngFor=\"let item of food\">\n    <!-- section title -->\n    <h2 *ngIf=\"!item.name && !item.price && item.category\">{{ item.category }}</h2>\n    <p *ngIf=\"!item.name && !item.price && item.category\" class=\"sub-title\">{{ item.description }}</p>\n    <!--  item -->\n    <h4 *ngIf=\"item.name && item.price && item.category && item.description\">{{ item.name }} {{ item.price }}</h4>\n    <p *ngIf=\"item.name && item.price && item.category && item.description\" class=\"description\">{{ item.description }}</p>\n    <!--  coffee -->\n    <h4 *ngIf=\"item.name && item.price && item.category && !item.description\" class=\"single-line\">{{ item.name }} {{ item.price }}</h4>\n    <!--  notes -->\n    <p *ngIf=\"!item.name && !item.price && !item.category && item.description\" class=\"description\">{{ item.description }}</p>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -252,7 +252,7 @@ module.exports = "<p>\n  Food menu coming soon...\n</p>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2Zvb2QvZm9vZC5jb21wb25lbnQuc2NzcyJ9 */"
+module.exports = "div {\n  margin: 50px auto;\n  width: 95%;\n  max-width: 500px;\n  text-align: center; }\n  div > div {\n    margin: 0px auto; }\n  div > div > h2,\n    div > div > h4,\n    div > div > p {\n      margin: 0px; }\n  div > div > p.sub-title,\n    div > div > p.description {\n      font-size: 0.75em;\n      margin-bottom: 15px; }\n  div > div > h4.single-line {\n      margin-bottom: 15px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi93d3cvVmludW0tV2luZS1CYXIvc3JjL2FwcC9wYWdlcy9mb29kL2Zvb2QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxpQkFBaUI7RUFDakIsVUFBVTtFQUNWLGdCQUFnQjtFQUNoQixrQkFBa0IsRUFBQTtFQUp0QjtJQU1RLGdCQUFnQixFQUFBO0VBTnhCOzs7TUFVWSxXQUFXLEVBQUE7RUFWdkI7O01BY1ksaUJBQWlCO01BQ2pCLG1CQUFtQixFQUFBO0VBZi9CO01Ba0JZLG1CQUFtQixFQUFBIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvZm9vZC9mb29kLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2IHtcbiAgICBtYXJnaW46IDUwcHggYXV0bztcbiAgICB3aWR0aDogOTUlO1xuICAgIG1heC13aWR0aDogNTAwcHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgID4gZGl2IHtcbiAgICAgICAgbWFyZ2luOiAwcHggYXV0bztcbiAgICAgICAgPiBoMixcbiAgICAgICAgPiBoNCxcbiAgICAgICAgPiBwIHtcbiAgICAgICAgICAgIG1hcmdpbjogMHB4O1xuICAgICAgICB9XG4gICAgICAgID5wLnN1Yi10aXRsZSxcbiAgICAgICAgPnAuZGVzY3JpcHRpb24ge1xuICAgICAgICAgICAgZm9udC1zaXplOiAwLjc1ZW07XG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xuICAgICAgICB9XG4gICAgICAgID5oNC5zaW5nbGUtbGluZSB7XG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xuICAgICAgICB9XG4gICAgfVxufSJdfQ== */"
 
 /***/ }),
 
@@ -268,10 +268,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FoodComponent", function() { return FoodComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _assets_food_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/food.json */ "./src/assets/food.json");
+var _assets_food_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../assets/food.json */ "./src/assets/food.json", 1);
+
 
 
 var FoodComponent = /** @class */ (function () {
     function FoodComponent() {
+        this.food = _assets_food_json__WEBPACK_IMPORTED_MODULE_2__;
     }
     FoodComponent.prototype.ngOnInit = function () {
     };
@@ -297,7 +301,7 @@ var FoodComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>VINUM WINE BAR</h1>\n\n<nav>\n  <a routerLink=\"/wine\" routerLinkActive=\"active\">Wine</a>\n  <a routerLink=\"/cocktails\" routerLinkActive=\"active\">Cocktails</a>\n  <a routerLink=\"/food\" routerLinkActive=\"active\">Food</a>\n</nav>\n\n<footer>\n  <span>Vinum Wine Bar | Developed by @jadeallencook</span>\n</footer>"
+module.exports = "<h1>VINUM WINE BAR</h1>\n\n<nav>\n  <a routerLink=\"/wine\" routerLinkActive=\"active\">Wine</a>\n  <a routerLink=\"/food\" routerLinkActive=\"active\">Food & Drinks</a>\n</nav>\n\n<footer>\n  <span>Vinum Wine Bar | Developed by @jadeallencook</span>\n</footer>"
 
 /***/ }),
 
@@ -364,7 +368,7 @@ module.exports = "<div *ngFor=\"let flight of flights\">\n    <h3>{{flight.fligh
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div {\n  margin: 0px auto;\n  width: 95%;\n  max-width: 500px; }\n  div > h3 {\n    text-align: center;\n    font-size: 1.5em;\n    margin: 50px 0px; }\n  div > div {\n    margin-bottom: 25px; }\n  div > div h4 {\n      font-weight: bold;\n      margin: 0px;\n      font-size: 1.25em; }\n  div > div p:nth-child(1) {\n      margin: 0px;\n      width: auto;\n      float: right;\n      font-size: 1.15em; }\n  div > div p:nth-child(1) img {\n        height: 13px; }\n  div > div p:nth-child(3) {\n      margin: 0px;\n      font-size: 0.85em; }\n  div > div p:nth-child(4) {\n      font-size: 0.85em;\n      font-style: italic;\n      margin: 0px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi93d3cvVmludW0tV2luZS1CYXIvc3JjL2FwcC9wYWdlcy93aW5lL3dpbmUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBZ0I7RUFDaEIsVUFBVTtFQUNWLGdCQUFnQixFQUFBO0VBSHBCO0lBS1Esa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixnQkFBZ0IsRUFBQTtFQVB4QjtJQVVRLG1CQUFtQixFQUFBO0VBVjNCO01BWVksaUJBQWlCO01BQ2pCLFdBQVc7TUFDWCxpQkFBaUIsRUFBQTtFQWQ3QjtNQWlCWSxXQUFXO01BQ1gsV0FBVztNQUNYLFlBQVk7TUFDWixpQkFBaUIsRUFBQTtFQXBCN0I7UUFzQmdCLFlBQVksRUFBQTtFQXRCNUI7TUEwQlksV0FBVztNQUNYLGlCQUFpQixFQUFBO0VBM0I3QjtNQThCWSxpQkFBaUI7TUFDakIsa0JBQWtCO01BQ2xCLFdBQVcsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3dpbmUvd2luZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdiB7XG4gICAgbWFyZ2luOiAwcHggYXV0bztcbiAgICB3aWR0aDogOTUlO1xuICAgIG1heC13aWR0aDogNTAwcHg7XG4gICAgPiBoMyB7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxLjVlbTtcbiAgICAgICAgbWFyZ2luOiA1MHB4IDBweDtcbiAgICB9XG4gICAgPiBkaXYge1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4O1xuICAgICAgICBoNCB7XG4gICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICAgICAgICAgIG1hcmdpbjogMHB4O1xuICAgICAgICAgICAgZm9udC1zaXplOiAxLjI1ZW07XG4gICAgICAgIH1cbiAgICAgICAgcDpudGgtY2hpbGQoMSkge1xuICAgICAgICAgICAgbWFyZ2luOiAwcHg7XG4gICAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICAgIGZsb2F0OiByaWdodDtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMS4xNWVtO1xuICAgICAgICAgICAgaW1nIHtcbiAgICAgICAgICAgICAgICBoZWlnaHQ6IDEzcHg7XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgICAgcDpudGgtY2hpbGQoMykge1xuICAgICAgICAgICAgbWFyZ2luOiAwcHg7XG4gICAgICAgICAgICBmb250LXNpemU6IDAuODVlbTtcbiAgICAgICAgfVxuICAgICAgICBwOm50aC1jaGlsZCg0KSB7XG4gICAgICAgICAgICBmb250LXNpemU6IDAuODVlbTtcbiAgICAgICAgICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgICAgICAgICAgIG1hcmdpbjogMHB4O1xuICAgICAgICB9XG4gICAgfVxufSJdfQ== */"
+module.exports = "div {\n  margin: 50px auto;\n  width: 95%;\n  max-width: 500px; }\n  div > h3 {\n    text-align: center;\n    font-size: 1.5em;\n    margin: 50px 0px; }\n  div > div {\n    margin: 0px auto;\n    margin-bottom: 25px; }\n  div > div h4 {\n      font-weight: bold;\n      margin: 0px;\n      font-size: 1.25em; }\n  div > div p:nth-child(1) {\n      margin: 0px;\n      width: auto;\n      float: right;\n      font-size: 1.15em; }\n  div > div p:nth-child(1) img {\n        height: 13px; }\n  div > div p:nth-child(3) {\n      margin: 0px;\n      font-size: 0.85em; }\n  div > div p:nth-child(4) {\n      font-size: 0.85em;\n      font-style: italic;\n      margin: 0px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi93d3cvVmludW0tV2luZS1CYXIvc3JjL2FwcC9wYWdlcy93aW5lL3dpbmUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxpQkFBaUI7RUFDakIsVUFBVTtFQUNWLGdCQUFnQixFQUFBO0VBSHBCO0lBS1Esa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixnQkFBZ0IsRUFBQTtFQVB4QjtJQVVRLGdCQUFnQjtJQUNoQixtQkFBbUIsRUFBQTtFQVgzQjtNQWFZLGlCQUFpQjtNQUNqQixXQUFXO01BQ1gsaUJBQWlCLEVBQUE7RUFmN0I7TUFrQlksV0FBVztNQUNYLFdBQVc7TUFDWCxZQUFZO01BQ1osaUJBQWlCLEVBQUE7RUFyQjdCO1FBdUJnQixZQUFZLEVBQUE7RUF2QjVCO01BMkJZLFdBQVc7TUFDWCxpQkFBaUIsRUFBQTtFQTVCN0I7TUErQlksaUJBQWlCO01BQ2pCLGtCQUFrQjtNQUNsQixXQUFXLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy93aW5lL3dpbmUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYge1xuICAgIG1hcmdpbjogNTBweCBhdXRvO1xuICAgIHdpZHRoOiA5NSU7XG4gICAgbWF4LXdpZHRoOiA1MDBweDtcbiAgICA+IGgzIHtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICBmb250LXNpemU6IDEuNWVtO1xuICAgICAgICBtYXJnaW46IDUwcHggMHB4O1xuICAgIH1cbiAgICA+IGRpdiB7XG4gICAgICAgIG1hcmdpbjogMHB4IGF1dG87XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDI1cHg7XG4gICAgICAgIGg0IHtcbiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgICAgICAgICAgbWFyZ2luOiAwcHg7XG4gICAgICAgICAgICBmb250LXNpemU6IDEuMjVlbTtcbiAgICAgICAgfVxuICAgICAgICBwOm50aC1jaGlsZCgxKSB7XG4gICAgICAgICAgICBtYXJnaW46IDBweDtcbiAgICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgICAgZmxvYXQ6IHJpZ2h0O1xuICAgICAgICAgICAgZm9udC1zaXplOiAxLjE1ZW07XG4gICAgICAgICAgICBpbWcge1xuICAgICAgICAgICAgICAgIGhlaWdodDogMTNweDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgICBwOm50aC1jaGlsZCgzKSB7XG4gICAgICAgICAgICBtYXJnaW46IDBweDtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMC44NWVtO1xuICAgICAgICB9XG4gICAgICAgIHA6bnRoLWNoaWxkKDQpIHtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMC44NWVtO1xuICAgICAgICAgICAgZm9udC1zdHlsZTogaXRhbGljO1xuICAgICAgICAgICAgbWFyZ2luOiAwcHg7XG4gICAgICAgIH1cbiAgICB9XG59Il19 */"
 
 /***/ }),
 
@@ -405,7 +409,6 @@ var WineComponent = /** @class */ (function () {
         });
     }
     WineComponent.prototype.ngOnInit = function () {
-        console.log(this.flights);
     };
     WineComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -419,6 +422,17 @@ var WineComponent = /** @class */ (function () {
 }());
 
 
+
+/***/ }),
+
+/***/ "./src/assets/food.json":
+/*!******************************!*\
+  !*** ./src/assets/food.json ***!
+  \******************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, default */
+/***/ (function(module) {
+
+module.exports = [{"name":null,"category":"Cocktail","description":"On the Lighter Side","price":null},{"name":"Moscow Mule","category":"Cocktail","description":"Petrov Reserve* with Elliot's Ginger Beer & Fresh lime","price":10},{"name":"Margarita","category":"Cocktail","description":"La Quiere de Oro 100% Blue Agave Wine* with Agave Nectar, Lime & a hint of orange","price":10},{"name":"Lemon Drop","category":"Cocktail","description":"Petrov Reserve* with fresh lomon juice","price":10},{"name":"Vinum Mimosa","category":"Cocktail","description":"Sparkling wine with orange juice","price":10},{"name":"Vinum Red Sangria","category":"Cocktail","description":"Red wine blend infused with apple & orange","price":10},{"name":"Vinum White Sangria","category":"Cocktail","description":"White wine blend infused with pineapple & orange","price":10},{"name":null,"category":null,"description":"*Fermented Spirit - 20% a.b.v","price":null},{"name":null,"category":"Coffee & Soft Drinks","description":null,"price":null},{"name":"Americano","category":"Coffee & Soft Drinks","description":null,"price":2.75},{"name":"Cappuccino / Latte 4.50","category":"Coffee & Soft Drinks","description":null,"price":4.5},{"name":"Ginger Beer","category":"Coffee & Soft Drinks","description":null,"price":5},{"name":"Coke / Sprite / Fanta","category":"Coffee & Soft Drinks","description":null,"price":4},{"name":"Still Water (12oz)","category":"Coffee & Soft Drinks","description":null,"price":4},{"name":"Sparkling Water (16oz)","category":"Coffee & Soft Drinks","description":null,"price":7},{"name":null,"category":"Beer on Tap","description":null,"price":null},{"name":"Islander","category":"Beer on Tap","description":"IPA - Coronado, CA - 7%","price":6},{"name":"Lost Abbey","category":"Beer on Tap","description":"Blonde Ale - San Marcos, CA - 6%","price":6},{"name":"Mission","category":"Beer on Tap","description":"Hefeweizen - San Diego, CA - 5.3%","price":6},{"name":"No. Coast \"Scrimshaw\"","category":"Beer on Tap","description":"Pilsner - Fort Bragg, CA - 4.4%","price":6},{"name":null,"category":"Aged & Craft Beer","description":null,"price":null},{"name":"Dragon's Milk - Bourbon Barrel Aged Stout","category":"Aged & Craft Beer","description":"Holland, MI - 12oz - 11%","price":9},{"name":"Allagash Cruieux - Aged Golden Ale","category":"Aged & Craft Beer","description":"Portland, Maine - 12oz - 11%","price":9},{"name":"Hitachino Nest - White Ale","category":"Aged & Craft Beer","description":"Japan - 330ml - 5.5%","price":9},{"name":"Hitachino Nest - Classic IPA","category":"Aged & Craft Beer","description":"Japan - 330ml - 7%","price":9},{"name":"Xingu - Black Beer","category":"Aged & Craft Beer","description":"Brazil - 350ml - 4.7%","price":6},{"name":"Weihenstephaner - Weizenbock (Dark Hefe)","category":"Aged & Craft Beer","description":"Germany - 330ml - 7.7%","price":7},{"name":"Abita Turbo Dog - Brown Ale","category":"Aged & Craft Beer","description":"Abita Springs, LA - 12oz - 5.6%","price":6},{"name":"Saison Dupont - Farmhouse Ale","category":"Aged & Craft Beer","description":"Tourpes, Belgium - 330ml - 6.5%","price":8},{"name":"Erdinger Wiseebier - Hefeweizen","category":"Aged & Craft Beer","description":"Erding, Germany - 330ml - 5.3%","price":6},{"name":"Fruli - Strawberry Hefeweizen","category":"Aged & Craft Beer","description":"Melle, Belgium - 330ml - 4.1%","price":7},{"name":"Rekorderlig - Strawberry Lime Cider","category":"Aged & Craft Beer","description":"Iceland - 11oz - 4.7%","price":7},{"name":"Tripel Karmeliet - Blonde Ale","category":"Aged & Craft Beer","description":"Buggenhout, Belgium - 8.4%","price":9},{"name":"Old Speckled Hen - English Fine Ale","category":"Aged & Craft Beer","description":"Suffolk, England - 440ml - 5%","price":6},{"name":null,"category":"Starters","description":null,"price":null},{"name":"Oysters*","category":"Starters","description":"Horseradish. Mignonette. Cocktail sauce.","price":2.75},{"name":"Cocktail Shrimp*","category":"Starters","description":"Tail on shrimp. Cocktail sauce.","price":12},{"name":"Caprese Bites","category":"Starters","description":"Fresh mozzarella. Basil. Cherry tomato. Balsamic glaze.","price":6},{"name":"Prosciutto Bites","category":"Starters","description":"Fresh mozzarella. Cherry tomato. Balsamic glaze.","price":6},{"name":"Marinated Olives","category":"Starters","description":"Lemon - Herb oil.","price":6},{"name":"Autumn Roasted Spiced Nuts","category":"Starters","description":"Chef's 3 spice blend.","price":6},{"name":"Artisanal Cheeses","category":"Starters","description":"Three cheeses. Toasted baguette.","price":17},{"name":"Charcuterie","category":"Starters","description":"Three charcuteries. Toasted baguette.","price":17},{"name":"Cheese & Charcuterie","category":"Starters","description":"Three cheeses & three charcuteries. Toasted baguette.","price":29},{"name":null,"category":"Salad","description":"Add Chicken 5. Add Shrimp 6","price":null},{"name":"Baby Spinach & Beet Salad","category":"Salad","description":"Avacado. Grape tomato. Red onion. Feta cheese.","price":10},{"name":"Seasonal Fruit Salad","category":"Salad","description":"Balsamic vinaigrette. Red Grapes. Dried cranberries. Fresh strawberries. Honey walnuts. Feta cheese.","price":10},{"name":"Supreme Spring Mix Salad","category":"Salad","description":"Balsamic vinaigrette. Clementine wedges. Apple slices. Hard-boiled eggs. Pancetta bacon. Chopped almonds.","price":10},{"name":null,"category":"Tapas & Appetizers","description":null,"price":null},{"name":"Bruschetta","category":"Tapas & Appetizers","description":"Tomato. Basil. Goat cheese. Parmesan.","price":9},{"name":"Beer Battered Asparagus","category":"Tapas & Appetizers","description":"Lemon-garlic aioli","price":9},{"name":"Avocado Toast","category":"Tapas & Appetizers","description":"Farmer's Market baguette. Roasted pepitas. Crushed red pepper. Olive oil. Lemon.","price":9},{"name":"Crab Quesadillas","category":"Tapas & Appetizers","description":"Blistered shishito. Spicey garlic sauce.","price":12},{"name":"Pan-Seared Scallop","category":"Tapas & Appetizers","description":"Blood orange shallot vinaigrette","price":12},{"name":"Spiced Calamari","category":"Tapas & Appetizers","description":"In-house Cajun seasoning.","price":8},{"name":"Pancetta Prawns","category":"Tapas & Appetizers","description":"Prawns wrapped in Italian Pancetta bacon.","price":15},{"name":"Prosciutto Flatbread Pizza","category":"Tapas & Appetizers","description":"Marinara & fresh mozzeralla. Artichoke.","price":10},{"name":"Baja Fish Tacos","category":"Tapas & Appetizers","description":"Pickled vegetables. Tobiko. Spicey garlic sauce.","price":12},{"name":"Pork Wings","category":"Tapas & Appetizers","description":"Honey-garlic pesto.","price":10},{"name":"Sous Vide Pork Belly Sliders","category":"Tapas & Appetizers","description":"Hoisin glaze. Quick Kimchi slaw.","price":12},{"name":"Cajun Fries","category":"Tapas & Appetizers","description":"In-house seasoning","price":5},{"name":"Jalapeno Poppers","category":"Tapas & Appetizers","description":"Battered jalapeno halves filled with cream cheese. Chipotle aioli.","price":7},{"name":"Mozzarella Sticks","category":"Tapas & Appetizers","description":"Panko breaded Wisconsin mozzarella. House-made marinara.","price":6},{"name":"Buffalo Chicken Wings","category":"Tapas & Appetizers","description":"Blue cheese & Ranch dipping sauce. Crudite.","price":10},{"name":"Lemongrass & Garlic Wings","category":"Tapas & Appetizers","description":"Banana ketchup.","price":10},{"name":null,"category":"Main","description":null,"price":null},{"name":"Vinum Burger","category":"Main","description":"Brioche bun. Lively Rum pimento cheese. Caramelized onions.","price":16},{"name":"Grilled Chicken Pesto Sandwich","category":"Main","description":"Grilled chicken. Avocado. Tomato. Lettuce.","price":12},{"name":"Vegetarian Pizza","category":"Main","description":"Cauliflower crust. Coconut curry sauce with dates and zucchini. Impossible burger meat crumbles. Fresh mozzarella.","price":22},{"name":"Mushroom Risotto","category":"Main","description":"Chef mix mushrooms. Truffle oil. Add shrimp 5. add scallop 6.","price":12},{"name":"Chorizo Paella","category":"Main","description":"Saffron aioli. Paella originated in Valencia. Add Shrimp 5. Add scallop 6. ","price":12},{"name":"Steak Frites","category":"Main","description":"10oz Rib Eye steak. Truffle butter. Wild chef mix mushrooms. French fries. Side Salad.","price":22},{"name":"Lamb Lollipops","category":"Main","description":"Black bean paste. Balsamic Glaze.","price":22},{"name":"Grilled Salmon","category":"Main","description":"Asparagus. Blood orange shallot vinaigrette.","price":15},{"name":"Fish & Chips","category":"Main","description":"Battered cod fillets. French fries.","price":15},{"name":"Spaghetti and Meatballs","category":"Main","description":"Marinara. Grated parmesan.","price":12},{"name":"Chicken Rigatoni","category":"Main","description":"Grilled Chicken breast. Fresh broccoli. Grated parmesan","price":12},{"name":"Seafood Alfredo Linguine","category":"Main","description":"Shrimp, calamari & scallop. Alfredo. Grated parmesan","price":22},{"name":" ","category":"Vinum's Seasonal Menu","description":"*Consuming raw or undercooked meat, poultry, seafood, shellfish, or egg may increase your risk of foodborne illness, especially if you have a medical condition.","price":null},{"name":"Brown Butter Cake","category":"Dessert","description":"Sriracha honey. Fresh strawberries.","price":8},{"name":"Vanilla Cheese Cake","category":"Dessert","description":"Blueberry sauce","price":8},{"name":"Calamansi Creme Brulee","category":"Dessert","description":"Candied Walnuts. Berries. Edible flowers.","price":8},{"name":"Warm Flourless Chocolate Cake","category":"Dessert","description":"Vanilla ice cream. Salted caramel.","price":8},{"name":null,"category":null,"description":"20% gratuity will be added to parties of 6 or more","price":null},{"name":null,"category":null,"description":"25$ corkage fee... no wines from our retail store please","price":null},{"name":null,"category":null,"description":"Follow us on Facebook & Instagram","price":null},{"name":null,"category":null,"description":"Vinum Bar is the perfect place to hold your next business gathering or special event. Please contact us so we may assist in making it a memorable one","price":null},{"name":null,"category":null,"description":"www.VinumBar.net","price":null},{"name":null,"category":null,"description":"(510) 285-3585","price":null}];
 
 /***/ }),
 
