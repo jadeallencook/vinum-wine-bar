@@ -1,0 +1,22 @@
+div {
+    margin: 50px auto;
+    width: 95%;
+    max-width: 500px;
+    text-align: center;
+    > div {
+        margin: 0px auto;
+        > h2,
+        > h4,
+        > p {
+            margin: 0px;
+        }
+        >p.sub-title,
+        >p.description {
+            font-size: 0.75em;
+            margin-bottom: 15px;
+        }
+        >h4.single-line {
+            margin-bottom: 15px;
+        }
+    }
+}

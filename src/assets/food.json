@@ -1,4 +1,213 @@
-[
+[{
+        "name": null,
+        "category": "Cocktail",
+        "description": "On the Lighter Side",
+        "price": null
+    },
+    {
+        "name": "Moscow Mule",
+        "category": "Cocktail",
+        "description": "Petrov Reserve* with Elliot's Ginger Beer & Fresh lime",
+        "price": 10
+    },
+    {
+        "name": "Margarita",
+        "category": "Cocktail",
+        "description": "La Quiere de Oro 100% Blue Agave Wine* with Agave Nectar, Lime & a hint of orange",
+        "price": 10
+    },
+    {
+        "name": "Lemon Drop",
+        "category": "Cocktail",
+        "description": "Petrov Reserve* with fresh lomon juice",
+        "price": 10
+    },
+    {
+        "name": "Vinum Mimosa",
+        "category": "Cocktail",
+        "description": "Sparkling wine with orange juice",
+        "price": 10
+    },
+    {
+        "name": "Vinum Red Sangria",
+        "category": "Cocktail",
+        "description": "Red wine blend infused with apple & orange",
+        "price": 10
+    },
+    {
+        "name": "Vinum White Sangria",
+        "category": "Cocktail",
+        "description": "White wine blend infused with pineapple & orange",
+        "price": 10
+    },
+    {
+        "name": null,
+        "category": null,
+        "description": "*Fermented Spirit - 20% a.b.v",
+        "price": null
+    },
+    {
+        "name": null,
+        "category": "Coffee & Soft Drinks",
+        "description": null,
+        "price": null
+    },
+    {
+        "name": "Americano",
+        "category": "Coffee & Soft Drinks",
+        "description": null,
+        "price": 2.75
+    },
+    {
+        "name": "Cappuccino / Latte 4.50",
+        "category": "Coffee & Soft Drinks",
+        "description": null,
+        "price": 4.5
+    },
+    {
+        "name": "Ginger Beer",
+        "category": "Coffee & Soft Drinks",
+        "description": null,
+        "price": 5
+    },
+    {
+        "name": "Coke / Sprite / Fanta",
+        "category": "Coffee & Soft Drinks",
+        "description": null,
+        "price": 4
+    },
+    {
+        "name": "Still Water (12oz)",
+        "category": "Coffee & Soft Drinks",
+        "description": null,
+        "price": 4
+    },
+    {
+        "name": "Sparkling Water (16oz)",
+        "category": "Coffee & Soft Drinks",
+        "description": null,
+        "price": 7
+    },
+    {
+        "name": null,
+        "category": "Beer on Tap",
+        "description": null,
+        "price": null
+    },
+    {
+        "name": "Islander",
+        "category": "Beer on Tap",
+        "description": "IPA - Coronado, CA - 7%",
+        "price": 6
+    },
+    {
+        "name": "Lost Abbey",
+        "category": "Beer on Tap",
+        "description": "Blonde Ale - San Marcos, CA - 6%",
+        "price": 6
+    },
+    {
+        "name": "Mission",
+        "category": "Beer on Tap",
+        "description": "Hefeweizen - San Diego, CA - 5.3%",
+        "price": 6
+    },
+    {
+        "name": "No. Coast \"Scrimshaw\"",
+        "category": "Beer on Tap",
+        "description": "Pilsner - Fort Bragg, CA - 4.4%",
+        "price": 6
+    },
+    {
+        "name": null,
+        "category": "Aged & Craft Beer",
+        "description": null,
+        "price": null
+    },
+    {
+        "name": "Dragon's Milk - Bourbon Barrel Aged Stout",
+        "category": "Aged & Craft Beer",
+        "description": "Holland, MI - 12oz - 11%",
+        "price": 9
+    },
+    {
+        "name": "Allagash Cruieux - Aged Golden Ale",
+        "category": "Aged & Craft Beer",
+        "description": "Portland, Maine - 12oz - 11%",
+        "price": 9
+    },
+    {
+        "name": "Hitachino Nest - White Ale",
+        "category": "Aged & Craft Beer",
+        "description": "Japan - 330ml - 5.5%",
+        "price": 9
+    },
+    {
+        "name": "Hitachino Nest - Classic IPA",
+        "category": "Aged & Craft Beer",
+        "description": "Japan - 330ml - 7%",
+        "price": 9
+    },
+    {
+        "name": "Xingu - Black Beer",
+        "category": "Aged & Craft Beer",
+        "description": "Brazil - 350ml - 4.7%",
+        "price": 6
+    },
+    {
+        "name": "Weihenstephaner - Weizenbock (Dark Hefe)",
+        "category": "Aged & Craft Beer",
+        "description": "Germany - 330ml - 7.7%",
+        "price": 7
+    },
+    {
+        "name": "Abita Turbo Dog - Brown Ale",
+        "category": "Aged & Craft Beer",
+        "description": "Abita Springs, LA - 12oz - 5.6%",
+        "price": 6
+    },
+    {
+        "name": "Saison Dupont - Farmhouse Ale",
+        "category": "Aged & Craft Beer",
+        "description": "Tourpes, Belgium - 330ml - 6.5%",
+        "price": 8
+    },
+    {
+        "name": "Erdinger Wiseebier - Hefeweizen",
+        "category": "Aged & Craft Beer",
+        "description": "Erding, Germany - 330ml - 5.3%",
+        "price": 6
+    },
+    {
+        "name": "Fruli - Strawberry Hefeweizen",
+        "category": "Aged & Craft Beer",
+        "description": "Melle, Belgium - 330ml - 4.1%",
+        "price": 7
+    },
+    {
+        "name": "Rekorderlig - Strawberry Lime Cider",
+        "category": "Aged & Craft Beer",
+        "description": "Iceland - 11oz - 4.7%",
+        "price": 7
+    },
+    {
+        "name": "Tripel Karmeliet - Blonde Ale",
+        "category": "Aged & Craft Beer",
+        "description": "Buggenhout, Belgium - 8.4%",
+        "price": 9
+    },
+    {
+        "name": "Old Speckled Hen - English Fine Ale",
+        "category": "Aged & Craft Beer",
+        "description": "Suffolk, England - 440ml - 5%",
+        "price": 6
+    },
+    {
+        "name": null,
+        "category": "Starters",
+        "description": null,
+        "price": null
+    },
     {
         "name": "Oysters*",
         "category": "Starters",
@@ -76,6 +285,12 @@
         "category": "Salad",
         "description": "Balsamic vinaigrette. Clementine wedges. Apple slices. Hard-boiled eggs. Pancetta bacon. Chopped almonds.",
         "price": 10
+    },
+    {
+        "name": null,
+        "category": "Tapas & Appetizers",
+        "description": null,
+        "price": null
     },
     {
         "name": "Bruschetta",
@@ -172,6 +387,12 @@
         "category": "Tapas & Appetizers",
         "description": "Banana ketchup.",
         "price": 10
+    },
+    {
+        "name": null,
+        "category": "Main",
+        "description": null,
+        "price": null
     },
     {
         "name": "Vinum Burger",
@@ -274,5 +495,41 @@
         "category": "Dessert",
         "description": "Vanilla ice cream. Salted caramel.",
         "price": 8
+    },
+    {
+        "name": null,
+        "category": null,
+        "description": "20% gratuity will be added to parties of 6 or more",
+        "price": null
+    },
+    {
+        "name": null,
+        "category": null,
+        "description": "25$ corkage fee... no wines from our retail store please",
+        "price": null
+    },
+    {
+        "name": null,
+        "category": null,
+        "description": "Follow us on Facebook & Instagram",
+        "price": null
+    },
+    {
+        "name": null,
+        "category": null,
+        "description": "Vinum Bar is the perfect place to hold your next business gathering or special event. Please contact us so we may assist in making it a memorable one",
+        "price": null
+    },
+    {
+        "name": null,
+        "category": null,
+        "description": "www.VinumBar.net",
+        "price": null
+    },
+    {
+        "name": null,
+        "category": null,
+        "description": "(510) 285-3585",
+        "price": null
     }
 ]
