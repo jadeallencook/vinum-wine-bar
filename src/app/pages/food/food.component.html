@@ -1,5 +1,5 @@
 <div>
-  <div *ngFor="let item of food">
+  <div *ngFor="let item of food" class="{{ (item.new_page && printing) ? 'new-page' : null}}">
     <!-- section title -->
     <h2 *ngIf="!item.name && !item.price && item.category">{{ item.category }}</h2>
     <p *ngIf="!item.name && !item.price && item.category" class="sub-title">{{ item.description }}</p>

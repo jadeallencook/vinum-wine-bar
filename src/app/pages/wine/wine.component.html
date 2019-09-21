@@ -1,5 +1,5 @@
 <div *ngFor="let flight of flights">
-    <h3>{{flight.flight}} <span *ngIf="flight.price"> - {{flight.price}}</span></h3>
+    <h3 class="{{flight.wines[0].new_page ? 'new-page' : null}}">{{flight.flight}} <span *ngIf="flight.price"> - {{flight.price}}</span></h3>
     <div *ngFor="let wine of flight.wines">
         <p>
             <span *ngIf="wine.glass">

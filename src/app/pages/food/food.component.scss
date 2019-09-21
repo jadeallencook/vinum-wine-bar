@@ -1,8 +1,11 @@
 div {
-    margin: 50px auto;
+    margin: 15px auto;
     width: 95%;
-    max-width: 500px;
+    max-width: 350px;
     text-align: center;
+    > div.new-page {
+        margin-top: 100vh;
+    }
     > div {
         margin: 0px auto;
         > h2,

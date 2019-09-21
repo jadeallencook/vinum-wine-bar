@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import wines from '../../../assets/wines.json';
+import menu from '../../../assets/menu-items.json';
 
 interface Wine {
   bottle: number;
@@ -33,7 +33,7 @@ export class WineComponent implements OnInit {
   constructor() {
     let index: number = 0;
     let category: string | null = null;
-    wines.map(wine => {
+    menu.Wine.map(wine => {
       if (wine.category !== category) {
         index++;
         category = wine.category;
