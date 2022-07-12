@@ -33,9 +33,21 @@
       wines += `
 			  <div>
 				  <p>
-					  ${glass ? `<span>${glass} <img src="./assets/glass.png" /></span>` : ""}
-					  ${bottle ? `<span>${bottle} <img src="./assets/bottle.png" /></span>` : ""}
-					  ${togo ? `<span>${togo} <img src="./assets/togo.png" /></span>` : ""}
+					  ${
+              glass
+                ? `<span>${glass} <img src="https://jadeallencook.github.io/Vinum-Wine-Bar/assets/glass.png" /></span>`
+                : ""
+            }
+					  ${
+              bottle
+                ? `<span>${bottle} <img src="https://jadeallencook.github.io/Vinum-Wine-Bar/assets/bottle.png" /></span>`
+                : ""
+            }
+					  ${
+              togo
+                ? `<span>${togo} <img src="https://jadeallencook.github.io/Vinum-Wine-Bar/assets/togo.png" /></span>`
+                : ""
+            }
 				  </p>
 				  <h4>${name}</h4>
 				  <p>
