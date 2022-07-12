@@ -1,5 +1,5 @@
 (async () => {
-  const url = "./assets/menu.json";
+  const url = "https://jadeallencook.github.io/Vinum-Wine-Bar/assets/menu.json";
   const response = await fetch(url).then((data) => data.json());
   const app = document.getElementById("app");
   let index = 0;
